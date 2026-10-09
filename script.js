@@ -1,3 +1,10 @@
+// Import Speed Insights for performance monitoring
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+// Initialize Speed Insights
+injectSpeedInsights();
+
+// Menu toggle functionality
 const menuToggle = document.querySelector(".menu-toggle");
 const siteNav = document.querySelector(".site-nav");
 
